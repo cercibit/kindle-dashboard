@@ -1,0 +1,5 @@
+Standalone curl 8.14.1, ARMv5 musl; compatible with ARMv6 Kindle Keyboard.
+Source/build project: https://github.com/stunnel/static-curl
+Binary archive: https://github.com/stunnel/static-curl/releases/download/8.14.1/curl-linux-armv5-musl-8.14.1.tar.xz
+Archive-provided SHA256SUMS were checked before installation.
+Curl license and notices: https://curl.se/docs/copyright.html

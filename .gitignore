@@ -1,0 +1,11 @@
+.tools/
+vendor/
+CONTINUE-HERE.md
+__pycache__/
+*.pyc
+*.raw
+weather-clock-install.tar
+kindle-weather-clock.tar.gz
+PanGPA.log
+weather-bridge.pid
+weather-bridge.log
