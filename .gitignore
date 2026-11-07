@@ -9,3 +9,11 @@ kindle-weather-clock.tar.gz
 PanGPA.log
 weather-bridge.pid
 weather-bridge.log
+kindlets/.tools/
+kindlets/*/build/
+kindlets/dist/
+kindlets/weather/test/eastern.csv
+kindlets/deployment*.json
+kindlets/device-backups/
+*.keystore
+*.key

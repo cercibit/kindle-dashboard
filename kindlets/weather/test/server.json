@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "latency_ms": 142,
+  "timestamp": "2026-11-05 09:30:15 EST",
+  "system": {
+    "hostname": "lenovo-server",
+    "vendor": "LENOVO",
+    "model_code": "20192",
+    "product_version": "Lenovo IdeaPad Y400",
+    "os": "Ubuntu 22.04.4 LTS",
+    "kernel": "5.15.0-191-generic",
+    "arch": "x86_64",
+    "uptime_seconds": 3394200,
+    "uptime_human": "39d 6h 50m",
+    "load_avg": [0.24, 0.19, 0.16]
+  },
+  "cpu": {
+    "model": "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz",
+    "cores": 4,
+    "threads": 8,
+    "usage_pct": 12.4,
+    "temp_c": 60.0,
+    "avg_freq_mhz": 1245
+  },
+  "memory": {
+    "total_bytes": 8266452992,
+    "used_bytes": 2080858112,
+    "available_bytes": 6185594880,
+    "used_pct": 25.2,
+    "swap_total_bytes": 8533307392,
+    "swap_used_bytes": 725876736,
+    "swap_used_pct": 8.5
+  },
+  "gpu": {
+    "name": "NVIDIA GeForce GT 750M",
+    "temp_c": 56,
+    "mem_used_mib": 4,
+    "mem_total_mib": 1995
+  },
+  "storage": {
+    "mounts": [
+      {
+        "mountpoint": "/",
+        "size_bytes": 226788651008,
+        "used_bytes": 174675681280,
+        "avail_bytes": 40565948416,
+        "use_pct": 82
+      },
+      {
+        "mountpoint": "/boot/efi",
+        "size_bytes": 100663296,
+        "used_bytes": 33998848,
+        "avail_bytes": 66664448,
+        "use_pct": 34
+      },
+      {
+        "mountpoint": "/media/storage/Lenovo_HDD",
+        "size_bytes": 983354093568,
+        "used_bytes": 307850657792,
+        "avail_bytes": 630720745472,
+        "use_pct": 33
+      }
+    ]
+  },
+  "processes": [
+    {"pid": 1420, "user": "root", "cpu_pct": 3.8, "mem_pct": 0.4, "command": "sshd"},
+    {"pid": 2190, "user": "server", "cpu_pct": 2.9, "mem_pct": 1.8, "command": "python3"},
+    {"pid": 2088, "user": "mysql", "cpu_pct": 0.8, "mem_pct": 1.1, "command": "mysqld"},
+    {"pid": 1989, "user": "server", "cpu_pct": 0.4, "mem_pct": 0.5, "command": "syncthing"},
+    {"pid": 1774, "user": "root", "cpu_pct": 0.2, "mem_pct": 0.1, "command": "containerd"}
+  ]
+}

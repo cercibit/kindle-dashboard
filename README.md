@@ -4,6 +4,9 @@ A freestanding, zero-libc native ARMv6 weather clock and live home-server teleme
 
 Built directly against the Linux kernel syscall interface (`-ffreestanding -nostdlib -static`), the application renders 2× supersampled (`1200×1600`) vector geometry and embedded DejaVu typography downsampled into smooth 4-bit grayscale on the e-ink framebuffer (`/dev/fb0`).
 
+Standalone **Calculator** and six-page **Weather Dashboard** Kindlets can also
+open directly from Home. See [Kindlet build, test and deployment instructions](kindlets/README.md).
+
 ---
 
 ## Six Views & Hardware Controls

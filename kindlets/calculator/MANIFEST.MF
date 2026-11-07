@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: com.mehmet.calculator.CalculatorKindlet
+Implementation-Title: Calculator
+Implementation-Vendor: Mehmet
+Implementation-Version: 1.0
+Extension-List: SDK
+SDK-Extension-Name: com.amazon.kindle.kindlet
+SDK-Specification-Version: 1.0
+Font-Size-Mode: point
+Toolbar-Mode: persistent
